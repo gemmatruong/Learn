@@ -1,12 +1,13 @@
+
 class MyString:
     def __init__(self, s):
         self.string = s
         self.length = self.len()
 
     def __str__(self):
-        return self.newstring
+        return self.string
 
-    def print_string(self):
+    def print(self):
         print(self.string)
 
     def len(self):
@@ -16,7 +17,8 @@ class MyString:
         return count
 
     def add_string(self, other):
-        return '{}{}'.format(self.string, other)
+        self.string = '{}{}'.format(self.string, other)
+        return self
 
     def substring(self, start, end):
         if start > end:
@@ -68,57 +70,60 @@ class MyString:
 
         r_str = MyString(st_part.add_string(added_part)).add_string(last_part)
         return r_str
+
+
+    def return_string(self):
+        return '{}'.format(self.string)
     
-    def find_string(self, start, chars):
-        if start < 0 or start > self.length:
-            return 'Out of length'
+    # def find_string(self, start, chars):
+    #     if start < 0 or start > self.length:
+    #         return 'Out of length'
+        
+    #     for i in range(start,self.length):
+    #         for j in range(0,MyString(chars).len()):
+    #             if self.string[i] == chars[j]
 
-        if chars in self.substring(start, self.length):
-            return True
-        return False
 
+str1 = 'Hello Gemma!'
 
+# str1.print()
+print(MyString(str1).len())                               # 12
+print(MyString(str1).add_string(' Nice to meet you.'))    # Hello Gemma! Nice to meet you.
 
-str1 = MyString('Hello Gemma!')
-
-str1.print_string()
-print(str1.len())                               # 12
-print(str1.add_string(' Nice to meet you.'))    # Hello Gemma! Nice to meet you.
-
-print('---------------------------')
-print(str1.substring(2,4))          # ll
-print(str1.substring(0,1))          # H
-print(str1.substring(1,1))          # 
-print(str1.substring(4,1))          # 
-print(str1.substring(4,18))         # o Gemma!
-print(str1.substring(16,19))        # 
-
-print('---------------------------')
-print(str1.insert_string(1,'!'))    # H!ello Gemma!
-print(str1.insert_string(0,'X'))    # XHello Gemma!
-print(str1.insert_string(0,''))     # Hello Gemma!
-print(str1.insert_string(15,'Y'))   # Position is exceed the length of string
+# print('---------------------------')
+print(MyString(str1).substring(2,4))          # ll
+print(MyString(str1).substring(0,1))          # H
+print(MyString(str1).substring(1,1))          # 
+print(MyString(str1).substring(4,1))          # 
+print(MyString(str1).substring(4,18))         # o Gemma!
+print(MyString(str1).substring(16,19))        # 
 
 print('---------------------------')
-print(str1.delete_string(0,2))      # llo Gemma!
-print(str1.delete_string(0,12))     # 
-print(str1.delete_string(0,1))      # ello Gemma!
-print(str1.delete_string(11,12))    # Hello Gemma
-print(str1.delete_string(11,11))    # Hello Gemma!
-print(str1.delete_string(9,16))     # Hello Gem
-print(str1.delete_string(15,16))    # Hello Gemma!
-print(str1.delete_string(5,0))      # Invalid input
+print(MyString(str1).insert_string(1,'!'))    # H!ello Gemma!
+print(MyString(str1).insert_string(0,'X'))    # XHello Gemma!
+print(MyString(str1).insert_string(0,''))     # Hello Gemma!
+print(MyString(str1).insert_string(15,'Y'))   # Position is exceed the length of string
 
 print('---------------------------')
-print(str1.replace_string(0,2,'ABCD'))      # ABllo Gemma!
-print(str1.replace_string(1,3,'ABCD'))      # HABlo Gemma!
-print(str1.replace_string(11,12,'ABCD'))    # Hello GemmaA
-print(str1.replace_string(11,11,'ABCD'))    # Hello Gemma!
-print(str1.replace_string(9,16,'ABCD'))     # Hello GemABC
-print(str1.replace_string(15,16,'ABCD'))    # Hello Gemma!
+print(MyString(str1).delete_string(0,2))      # llo Gemma!
+print(MyString(str1).delete_string(0,12))     # 
+print(MyString(str1).delete_string(0,1))      # ello Gemma!
+print(MyString(str1).delete_string(11,12))    # Hello Gemma
+print(MyString(str1).delete_string(11,11))    # Hello Gemma!
+print(MyString(str1).delete_string(9,16))     # Hello Gem
+print(MyString(str1).delete_string(15,16))    # Hello Gemma!
+print(MyString(str1).delete_string(5,0))      # Invalid input
 
 print('---------------------------')
-print(str1.find_string(0,'ll'))     # True
-print(str1.find_string(8,'G'))      # False
-print(str1.find_string(4,'Gemma'))  # True
-print(str1.find_string(16,'G'))     # Out of length
+print(MyString(str1).replace_string(0,2,'ABCD'))      # ABllo Gemma!
+print(MyString(str1).replace_string(1,3,'ABCD'))      # HABlo Gemma!
+print(MyString(str1).replace_string(11,12,'ABCD'))    # Hello GemmaA
+print(MyString(str1).replace_string(11,11,'ABCD'))    # Hello Gemma!
+print(MyString(str1).replace_string(9,16,'ABCD'))     # Hello GemABC
+print(MyString(str1).replace_string(15,16,'ABCD'))    # Hello Gemma!
+
+print('---------------------------')
+# print(MyString(str1).find_string(0,'ll'))     # True
+# print(str1.find_string(8,'G'))      # False
+# print(str1.find_string(4,'Gemma'))  # True
+# print(str1.find_string(16,'G'))     # Out of length
