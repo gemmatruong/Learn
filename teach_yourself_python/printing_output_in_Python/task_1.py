@@ -1,0 +1,10 @@
+def main():
+    print("Hello World")
+    print("This is sentence 1")
+    print("")
+    print("This is sentence 2")
+    print("this is a sentence that will not print")
+    print("This is sentence 3")
+    print("")
+    print("This is sentence 4")
+main()
