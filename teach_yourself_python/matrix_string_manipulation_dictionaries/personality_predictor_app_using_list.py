@@ -5,11 +5,6 @@ def main():
     hobby = input("Name one activity that you usually do in your freetime >>> ")
     app(name, subject, hobby)
 
-    # subject_list = ["math", "music", "arts", "physics", "chemistry", "literature",
-    # "history", "PE", "computing"]
-
-    # hobby_list = ["watch movies", "play video game", "read", "hang out with friends",
-    # "play sports", "listen to music", "hike, garden or camp", "draw and paint", "solve quizzes"]
 
 def app(name, subject, hobby):
     print("======== YOUR PERSONALITY REVEALED ==========")
@@ -33,6 +28,7 @@ energetic environment...""", end = ". ")
         print(name + """! Well, you don't need to do much but you're shining in your own way.
 Everyone loves to be your friend because of your energy and unique personality. Maybe don't
 recognize how bad people admire you...""", end = ". ")
+
 
     if hobby in ["watch movies", "listen to music", "draw and paint"]:
         print("""I bet you are fond of artistic field. It shows how interested you are. You love

@@ -1,3 +1,5 @@
+import sys
+
 def matrix_list():
     lst = []
     x = 1
@@ -12,18 +14,37 @@ def matrix_list():
 
 
 def main():
+    # Create list
     lst = matrix_list()
     for ele in lst:
         print(ele)
-    
+
+    # Ask name
     name = input("Enter a letter that will be your player name: ")
     print("Thank you", name)
-    num = int(input("Please enter a number from 1 to 5: "))
-    print("Well done, " + name + "! You are now in position: ", num)
-    lst[0][num] = name
 
+    # Change all value of lst into "*"
     for ele in lst:
-        print(ele)
+        for i in range(5):
+            ele[i] = "*"
+
+    # Use while loop to check whether the position of player is the end of lst
+    pos = 0
+    while pos != 24:
+        num = int(input("Please enter a number from 1 to 5: "))
+        pos += num
+        if pos > 24:
+            print("Game lose")
+            sys.exit()
+        else:
+            print("Well done, " + name + "! You are now in position: ", pos)
+            row = pos // 5
+            col = pos % 5
+            lst[row][col] = name
+
+            for ele in lst:
+                print(ele)
+    print("Game won")
 
 
 main()
