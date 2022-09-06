@@ -1,0 +1,5 @@
+firstname, lastname,username,password,email,no_of_likes
+Ruth,Marvin,marvR,pass123,marv@gmail.com,400
+Carter,Smith,smithC,open123,cart@gmail.com,200
+Joe,Blogs, blogsJ,2bg123,blog@gmail.com,99
+Ruth,Pigachee,pigR,pig123,piggy@gmail.com,72

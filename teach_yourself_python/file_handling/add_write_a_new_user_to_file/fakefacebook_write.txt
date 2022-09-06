@@ -1,0 +1,6 @@
+ID,firstname, lastname,username,password,email,no_of_likes
+001,Ruth,Marvin,marvR,pass123,marv@gmail.com,400
+002,Carter,Smith,smithC,open123,cart@gmail.com,200
+003,Joe,Blogs, blogsJ,2bg123,blog@gmail.com,99
+004,Ruth,Pigachee,pigR,pig123,piggy@gmail.com,72
+005,Gemma,Truong,Gemng,Gem2204,gemma@gmail.com,1000
