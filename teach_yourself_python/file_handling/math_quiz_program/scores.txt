@@ -1,0 +1,4 @@
+NAME,SCORES
+Gemma Truong,30
+Quang Ly,10
+Jonah Linn,0
