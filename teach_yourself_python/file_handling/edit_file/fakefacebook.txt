@@ -1,0 +1,4 @@
+username,password,email,no_of_likes
+marvR,BOO123,marv@gmail.com,400
+smithC,open123,cart@gmail.com,200
+blogsJ,2bg123,blog@gmail.com,99

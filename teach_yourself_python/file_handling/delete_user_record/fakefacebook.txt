@@ -1,0 +1,3 @@
+username,password,email,no_of_likes
+smithC,open123,cart@gmail.com,200
+blogsJ,2bg123,blog@gmail.com,99
