@@ -1,0 +1,3 @@
+USERNAME,PRODUCTS,PRICE
+GemmaTruong,cellphone,500
+GemmaTruong,Airtag,50
