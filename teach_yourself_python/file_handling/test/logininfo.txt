@@ -1,0 +1,3 @@
+USERNAME,PASSWORD,TECH PRODUCT
+GemmaTruong,thanhdethuong99,cellphone
+quangly,quangly-123,computer
