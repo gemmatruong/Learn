@@ -1,3 +1,5 @@
+# Binary search requires a sorted list before searching
+
 def binary_search(friend, list_of_friends):
     first = 0
     last = len(list_of_friends) - 1
