@@ -1,3 +1,7 @@
-gemmatruong99,ngocthanh99,Gemma,Truong,female,gemmatruong99@gmail.com,04/22/1999,none,workaholic - energetic - organized
-tanphat94,dragonfly,Phat,Truong,male,tanphat94@gmail.com,01/05/1994,none,honest - practice - determined
-quanglyyy,wanglee22,Quang,Ly,male,wanelee22,02/24/1999,none,independent - determined - innovative
+gemmatruong99,ngocthanh99,Gemma,Truong,female,gemmatruong99@gmail.com,04/22/1999,none,workaholic
+tanphat94,dragonfly,Phat,Truong,male,tanphat94@gmail.com,01/05/1994,none,honest
+quanglyyy,wanglee22,Quang,Ly,male,wanelee22,02/24/1999,none,independent
+yumiko20,yumikonaya,Quang,Nguyen,female,yumikonaya20@gmail.com,,Christian,outgoing
+lanphuongdoan63,227733lp,Phuong,Doan,female,lanphuong63@gmail.com,01/01/1997,none,leader
+mew2,Hello123@,Michael,Watson,male,michaelwatson@gmail.com,11/11/2000,Christian,innovative
+hyunkim93,Kimsunghyun93#,Hyun,Kim,male,hyunkim93@gmail.com,12/24/1993,Buddhism,shy
