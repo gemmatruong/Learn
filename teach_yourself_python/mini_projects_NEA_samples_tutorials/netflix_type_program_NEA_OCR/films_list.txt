@@ -1,0 +1,21 @@
+0,Genre,Title,Rating,Likes
+1,Sci-Fi,Out of the Silent Planet,PG,0
+2,Sci-Fi,Solaris,PG,0
+3,Sci-Fi,Star Trek,PG,0
+4,Sci-Fi,Cosmos,PG,0
+5,Drama,The English Patient,15,0
+6,Drama,Benhur,PG,0
+7,Drama,The Pursuit of Happiness,12,0
+8,Drama,The Thin Red Line,18,0
+9,Romance,When Harry met Sally,12,0
+10,Romance,You've got mail,12,0
+11,Romance,Last Tango in Paris,18,0
+12,Romance,Casablanca,12,0
+13,Romance,Crash Landing On You,G,0
+14,Action,Rush Hour,PG,0
+15,Sci-fi,Avatar,G,0
+16,Fiction,Harry Potter,G,0
+17,Horror,Get Out,12,0
+18,Action,The Karate Kid,G,0
+19,Horror,Wednesday,12,0
+20,Horror,Squid Game,12,0
