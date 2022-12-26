@@ -1,1 +1,6 @@
 haileynguyen,Beauty1999_,Hailey,Nguyen,female,09/08/1999,4532 Beach,haileynguyen99@gmail.com,Credit or Debit Card,Standard
+gemmatruong99,Hello123!,Gemma,Truong,female,04/22/1998,"124 Galway, Garden Grove, CA",gemma@gmail.com,Credit or Debit Card,Premium
+quanglyy,Runningman24@,Quang,Ly,male,02/24/1999,2142 Trask - Garden Grove - CA,quanglyyy@gmail.com,Credit or Debit Card,Premium
+nemo97,Keepinm!nd97,Anne,Lee,female,05/11/2000,3256 Harbor - Garden Grove - CA,emo97@gmail.com,PayPal,Premium
+camila04,!012Camila210!,Camila,Lopez,female,01/01/2004,2546 Beach - Santa Ana - CA,camila@gmail.com,Credit or Debit Card,Premium
+gracekimus,@Grace00@,Grace,Kim,female,10/09/1987,4345 Michelson - Irvine - CA,gracekimus@gmail.com,PayPal,Standard
