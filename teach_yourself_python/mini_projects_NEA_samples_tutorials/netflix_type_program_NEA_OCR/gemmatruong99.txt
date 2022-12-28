@@ -1,2 +1,5 @@
 15,Sci-fi,Avatar,0
 20,Horror,Squid Game,0
+5,Drama,The English Patient,0
+19,Horror,Wednesday,0
+18,Action,The Karate Kid,0

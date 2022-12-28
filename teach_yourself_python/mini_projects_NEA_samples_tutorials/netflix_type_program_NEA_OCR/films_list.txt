@@ -1,6 +1,6 @@
 0,Genre,Title,Rating,Likes
 1,Sci-Fi,Out of the Silent Planet,PG,0
-2,Sci-Fi,Solaris,PG,0
+2,Sci-Fi,Solaris,PG,1
 3,Sci-Fi,Star Trek,PG,0
 4,Sci-Fi,Cosmos,PG,0
 5,Drama,The English Patient,15,0
@@ -14,8 +14,8 @@
 13,Romance,Crash Landing On You,G,0
 14,Action,Rush Hour,PG,0
 15,Sci-fi,Avatar,G,0
-16,Fiction,Harry Potter,G,0
+16,Fiction,Harry Potter,G,1
 17,Horror,Get Out,12,0
-18,Action,The Karate Kid,G,0
-19,Horror,Wednesday,12,0
+18,Action,The Karate Kid,G,1
+19,Horror,Wednesday,12,2
 20,Horror,Squid Game,12,0
